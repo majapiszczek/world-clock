@@ -10,11 +10,7 @@ h1 {
 
 footer {
   text-align: center;
-}
-
-hr {
-  border-top: dotted 2px;
-  color: rgba(000, 000, 000, 0.2);
+  font-size: 14px;
 }
 
 select {
@@ -42,6 +38,11 @@ select {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
+  border-bottom: 1px dashed rgba(000, 000, 000, 0.3);
+}
+
+.fourth {
+  border-bottom: none;
 }
 
 .city h2 {
