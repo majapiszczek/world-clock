@@ -1,3 +1,81 @@
 body {
-  color: plum;
+  background-color: #f9f7fe;
+}
+
+h1 {
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  padding: 40px;
+}
+
+select {
+  width: 500px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+hr {
+  border-top: dotted 3px;
+  color: rgba(000, 000, 000, 0.2);
+}
+
+.clock-app {
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 600px;
+  box-shadow: 0 0 6px rgba(000, 000, 000, 0.3);
+}
+
+.selector {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  margin: 30px 40px;
+}
+
+.city h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.city p {
+  font-size: 14px;
+  color: grey;
+  margin-top: 10px;
+}
+
+.time {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0 20px;
+}
+
+.time span {
+  font-size: 20px;
 }

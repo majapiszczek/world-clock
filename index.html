@@ -5,10 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="clock-app">
+      <div class="flex">
+        <h1>World Clocks</h1>
+        <img src="/images/logo.png" alt="She Codes" />
+      </div>
+      <div class="selector">
+        <select name="city" id="city">
+          <option value="">Choose city</option>
+          <option value="chicago">Chicago</option>
+          <option value="london">London</option>
+          <option value="rome">Rome</option>
+          <option value="tokyo">Tokyo</option>
+        </select>
+      </div>
+      <div class="cities">
+        <div class="first">
+          <div class="city">
+            <h2>Chicago 🇺🇸</h2>
+            <p>August 15th 2022</p>
+          </div>
+          <div class="time">
+            <p>1:48:15 <span>AM</span></p>
+          </div>
+        </div>
+        <hr />
+        <div class="second">
+          <div class="city">
+            <h2>London 🇬🇧</h2>
+            <p>August 15th 2022</p>
+          </div>
+          <div class="time">
+            <p>1:48:15 <span>AM</span></p>
+          </div>
+        </div>
+        <hr />
+        <div class="third">
+          <div class="city">
+            <h2>Rome 🇮🇹</h2>
+            <p>August 15th 2022</p>
+          </div>
+          <div class="time">
+            <p>1:48:15 <span>AM</span></p>
+          </div>
+        </div>
+        <hr />
+        <div class="fourth">
+          <div class="city">
+            <h2>Tokyo 🇯🇵</h2>
+            <p>August 15th 2022</p>
+          </div>
+          <div class="time">
+            <p>1:48:15 <span>AM</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       Coded by Maja Piszczek,
       <a href="https://github.com/majapiszczek/world-clock" target="_blank"
