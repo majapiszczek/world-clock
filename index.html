@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="/css/style.css" />
 
     <title>World Clock</title>
@@ -21,44 +24,36 @@
         </select>
       </div>
       <div class="cities">
-        <div class="first">
-          <div class="city">
-            <h2>Chicago 🇺🇸</h2>
-            <p>August 15th 2022</p>
+        <div class="city" id="chicago">
+          <div class="location">
+            <h2 class="city-name">Chicago 🇺🇸</h2>
+            <p class="date"></p>
           </div>
-          <div class="time">
-            <p>1:48:15 <span>AM</span></p>
-          </div>
+          <div class="time"><span></span></div>
         </div>
 
-        <div class="second">
-          <div class="city">
-            <h2>London 🇬🇧</h2>
-            <p>August 15th 2022</p>
+        <div class="city" id="london">
+          <div class="location">
+            <h2 class="city-name">London 🇬🇧</h2>
+            <p class="date"></p>
           </div>
-          <div class="time">
-            <p>1:48:15 <span>AM</span></p>
-          </div>
+          <div class="time"><span></span></div>
         </div>
 
-        <div class="third">
-          <div class="city">
-            <h2>Rome 🇮🇹</h2>
-            <p>August 15th 2022</p>
+        <div class="city" id="rome">
+          <div class="location">
+            <h2 class="city-name">Rome 🇮🇹</h2>
+            <p class="date"></p>
           </div>
-          <div class="time">
-            <p>1:48:15 <span>AM</span></p>
-          </div>
+          <div class="time"><span></span></div>
         </div>
 
-        <div class="fourth">
-          <div class="city">
-            <h2>Tokyo 🇯🇵</h2>
-            <p>August 15th 2022</p>
+        <div class="city" id="tokyo">
+          <div class="location">
+            <h2 class="city-name">Tokyo 🇯🇵</h2>
+            <p class="date"></p>
           </div>
-          <div class="time">
-            <p>1:48:15 <span>AM</span></p>
-          </div>
+          <div class="time"><span></span></div>
         </div>
       </div>
     </div>

@@ -31,23 +31,17 @@ select {
   box-shadow: 0 0 6px rgba(000, 000, 000, 0.3);
 }
 
-.first,
-.second,
-.third,
-.fourth {
+.city {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
   border-bottom: 1px dashed rgba(000, 000, 000, 0.3);
-}
-
-.fourth {
-  border-bottom: none;
+  margin: 30px 20px;
 }
 
 .city h2 {
   font-size: 22px;
-  margin: 30px 0 0 0;
+  margin: 0;
 }
 
 .city p {
@@ -58,10 +52,10 @@ select {
 
 .time {
   font-size: 30px;
-  font-weight: 600;
-  margin: 0;
+  font-weight: bold;
 }
 
 .time span {
   font-size: 16px;
+  vertical-align: middle;
 }
