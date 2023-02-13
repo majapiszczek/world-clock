@@ -54,7 +54,11 @@ function displayTimeSelected(event) {
     <div class="time">${cityTime.format("h:mm:ss")}<span>${cityTime.format(
     "A"
   )}</span></div>
-  </div>`;
+  </div>
+  <div class="back">
+    <a href="/">Go back</a>
+  </div>
+  `;
 }
 
 displayTime();

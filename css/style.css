@@ -1,3 +1,7 @@
+:root {
+  --main-color: palevioletred;
+}
+
 body {
   background-color: #f9f7fe;
   font-family: sans-serif;
@@ -6,6 +10,7 @@ body {
 h1 {
   padding: 20px;
   text-align: center;
+  color: var(--main-color);
 }
 
 footer {
@@ -13,12 +18,17 @@ footer {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
 select {
   display: block;
   margin: 20px auto;
   width: 90%;
   border-radius: 10px;
-  border: 1px solid gainsboro;
+  border: 1px solid var(--main-color);
 }
 
 .clock-app {
@@ -35,7 +45,7 @@ select {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  border-bottom: 1px dashed rgba(000, 000, 000, 0.3);
+  border-bottom: 1px dashed pink;
   margin: 30px 20px;
 }
 
